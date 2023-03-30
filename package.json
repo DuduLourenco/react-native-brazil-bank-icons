@@ -1,0 +1,35 @@
+{
+  "name": "react-native-brazil-bank-icons",
+  "version": "1.0.0",
+  "description": "This is a React-Native package to display most brazil banks icons!",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuduLourenco/react-native-brazil-bank-icons"
+  },
+  "keywords": [
+    "React-Native",
+    "Brazil",
+    "Bank",
+    "COMPE",
+    "icon"
+  ],
+  "author": "Eduardo Lourenco",
+  "license": "ISC",
+  "homepage": "https://github.com/DuduLourenco/react-native-brazil-bank-icons.git",
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "@types/react-native": "^0.65.0",
+    "react": "^17.0.2",
+    "react-native": "^0.65.1",
+    "typescript": "^4.4.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
